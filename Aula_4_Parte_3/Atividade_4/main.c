@@ -21,7 +21,8 @@ return 0;
 int main(){
   int n;
   long long fatorial = 1;
-  
+
+  printf("Digite um número para ver o fatorial: ");
   scanf("%d", &n);
 
   for (int i = 1; i <= n; i++) {
